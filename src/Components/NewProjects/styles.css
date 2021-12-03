@@ -1,0 +1,93 @@
+
+.react-button{
+  height: 36px;
+  padding:0px 10px;
+  margin: 3px 0;
+  box-shadow: unset;
+  border-radius: 16px;
+  color: #fff;
+  background: #ec008c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+    border: none;
+    margin-right: 20px;
+}
+.bootstrap-button{
+  height: 36px;
+  padding:0px 10px;
+  margin: 3px 0;
+  box-shadow: unset;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #02AAB0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  border: none;
+  margin-right: 20px;
+}
+.Mongodb-button{
+  height: 36px;
+  padding:0px 10px;
+  margin: 3px 0;
+  box-shadow: unset;
+  border-radius: 16px;
+  color: #fff;
+  background: #D31027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  margin-right: 20px;
+}
+
+.reactrouter-button{
+  height: 36px;
+  padding:0px 10px;
+  margin: 3px 0;
+  box-shadow: unset;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #FFB726;
+  border: none;
+  margin-right: 20px;
+}
+
+.swiper-container{
+ margin-top: 50px;
+
+ 
+}
+
+
+@media only screen and (max-width:668px) {
+  .swiper-container{
+    margin-bottom: 200px;
+   
+    
+   }
+   #Projects{
+     margin-top: 100px;
+   }
+   
+ 
+}
+
+.mySwiper {
+  padding-bottom: 100px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  
+ 
+  
+}
+.swipercard{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  background-color: white;
+  border-radius: 0.25rem;
+}

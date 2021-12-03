@@ -1,0 +1,17 @@
+ul li{
+    list-style: none;
+    
+   
+}
+ul a{
+    color: white;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    transition: 1s;
+    
+}
+ul a:hover{
+    color: red;
+}
+
