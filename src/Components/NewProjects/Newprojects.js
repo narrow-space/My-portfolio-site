@@ -40,9 +40,8 @@ const Newprojects = () => {
 
       <>
         <Swiper
+           autoplay={{ delay: 3000 }} 
           effect={"coverflow"}
-          spaceBetween={50}
-          
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
@@ -193,8 +192,6 @@ const Newprojects = () => {
                 >
                   <i class="fas fa-link me-2"></i>Live link
                 </a>
-                
-                
               </div>
             </div>
           </SwiperSlide>
