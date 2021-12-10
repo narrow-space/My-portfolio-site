@@ -3,35 +3,50 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Menubar.css";
 const Menubar = () => {
   return (
-    <div fixed="top" id="Home" className="nav-item">
-      <Navbar
-        
-        collapseOnSelect
-        expand="lg"
-        bg=""
-        variant="dark"
-      >
-        <Container>
-          <Navbar.Brand
-            style={{ "font-family": "'Roboto Mono', monospace" }}
-            className="fs-3"
-            href="#home"
+    <div id="Home" className="nav-item ">
+      <nav class=" navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 ms-1" href="#">
+            {" "}
+            IMRAN <span style={{ color: "#DC143C" }}>HASAN</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            IMRAN <span style={{ color: "red" }}>HASAN</span>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <ul className="ms-auto d-md-flex text-center">
-             <a className="text-decoration-none" href="#Home"><li>Home</li></a>
-              <a className="text-decoration-none" href="#Projects"><li>Projects</li></a>
-              <a className="text-decoration-none" href=""><li>About Me</li></a>
-             <a className="text-decoration-none" href=""> <li>Services</li></a>
-            <a className="text-decoration-none" href="">  <li>Review</li></a>
-              
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav fs-5 ms-auto mb-2 mb-lg-0 me-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Projects">
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">
+                  Contact
+                </a>
+              </li>
             </ul>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 };

@@ -1,17 +1,14 @@
-ul li{
-    list-style: none;
-    
-   
-}
-ul a{
-    color: white;
-    margin: 10px;
-    font-size: 1.2rem;
-    font-family: 'Roboto Mono', monospace;
-    transition: 1s;
-    
-}
-ul a:hover{
-    color: red;
+
+nav{
+  height:auto;
 }
 
+ #navbarText{
+     text-align:center ;
+     
+ }
+#navbarText ul li a:hover{
+  border-bottom: 2px solid #DC143C ;
+  color: #DC143C;
+  box-shadow: 5px 10px 30px #DC143C
+}

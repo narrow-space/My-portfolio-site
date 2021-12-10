@@ -1,0 +1,54 @@
+/* *{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+#services{
+  
+ 
+}
+hr{
+    background-color:crimson;
+    width: 250px !important;
+    height: 5px !important;
+    margin: 10px auto;
+}
+.card {
+  border-radius: 10px;
+  outline: none;
+  background-color: #212529;
+  margin-bottom: 60px;
+  
+
+  
+}
+.card button{
+    background-color: #f9004d;
+    width: 50%;
+    
+}
+.card p {
+  color: white;
+}
+.card h4{
+    
+    color: #f9004d;
+}
+
+.circle {
+  height: 70px;
+  width: 70px;
+  color: black;
+  background-color:#f9004d;
+  padding: 12px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.card:hover .circle{
+    background-color: crimson;
+    color: black;
+
+}

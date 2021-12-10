@@ -1,0 +1,28 @@
+*{
+  font-family: "Ubuntu", sans-serif;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.user i {
+  color: #dc142f;
+  font-size: 30px;
+}
+.info-container {
+  color: white;
+}
+.info-container .info {
+  margin-right: 10px;
+}
+.user .icon{
+    margin: 20px;
+}
+.contact form textarea{
+    height:160px;
+}
+#contact{
+ 
+}

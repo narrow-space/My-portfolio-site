@@ -20,27 +20,27 @@ import "./styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
-AOS.init({
-  duration: 2000,
-});
+AOS.init({});
 
 const Newprojects = () => {
   // install Swiper modules
   SwiperCore.use([EffectCoverflow, Pagination, Autoplay]);
   return (
-    <div className="swiper-container">
+    <div   id="Projects" data-aos="zoom-in"  className="swiper-container">
       <h1
+       
         data-aos="zoom-in"
-        id="Projects"
-        style={{ "font-family": "'Roboto Mono', monospace" }}
-        className="text-center mt-5"
+         
+        style={{ "font-family": "'Roboto Mono', monospace","marginTop":"50px" }}
+        className="text-center text-light"
       >
-        My-<span style={{ color: "red" }}>Projects</span>
+        My-<span style={{ color: "#DC143C" }}>Projects</span>
       </h1>
 
       <>
         <Swiper
-           autoplay={{ delay: 3000 }} 
+        style={{"marginTop":"100px" }}
+          
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
@@ -55,9 +55,9 @@ const Newprojects = () => {
           pagination={true}
           className="mySwiper"
         >
-          <SwiperSlide className="m-3">
-            <div className="card">
-              <img src={img1} className="card-img-top img-fluid" alt="..." />
+          <SwiperSlide className="">
+            <div className="swipercard">
+              <img src={img1} className="img-fluid" alt="..." />
 
               <div className="card-body">
                 <button className="react-button">React</button>
@@ -90,16 +90,16 @@ const Newprojects = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="m-3">
+          <SwiperSlide className="">
             <div className="swipercard">
-              <img src={img2} className="card-img-top img-fluid" alt="..." />
+              <img src={img2} className="-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <button className="react-button">React</button>
                 <button className="reactrouter-button">React Router</button>
                 <button className="bootstrap-button">Bootstrap</button>
                 <button className="Mongodb-button">Mongo Db</button>
               </div>
-              <div className="d-flex justify-content-center align-items-center my-2">
+              <div className="d-flex justify-content-center align-items-center ">
                 <a
                   target="_Blank"
                   className="link text-decoration-none m-3 text-dark"
@@ -124,16 +124,16 @@ const Newprojects = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="m-3">
-            <div className="card" style={{ width: "18rem;" }}>
-              <img src={img3} className="card-img-top img-fluid" alt="..." />
+          <SwiperSlide className="">
+            <div className="swipercard">
+              <img src={img3} className="-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <button className="react-button">React</button>
                 <button className="reactrouter-button">React Router</button>
                 <button className="bootstrap-button">Bootstrap</button>
                 <button className="Mongodb-button">Firebase</button>
               </div>
-              <div className="d-flex justify-content-center align-items-center my-2">
+              <div className="d-flex justify-content-center align-items-center ">
                 <a
                   target="_Blank"
                   className="link text-decoration-none m-3 text-dark"
@@ -151,15 +151,15 @@ const Newprojects = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="m-3">
-            <div className="card" style={{ width: "18rem;" }}>
-              <img src={img4} className="card-img-top img-fluid" alt="..." />
+          <SwiperSlide className="">
+            <div className="swipercard">
+              <img src={img4} className="-img-top img-fluid" alt="..." />
               <div className="card-body">
                 <button className="react-button">React</button>
                 <button className="reactrouter-button">React Router</button>
                 <button className="bootstrap-button">Bootstrap</button>
               </div>
-              <div className="d-flex justify-content-center align-items-center my-2">
+              <div className="d-flex justify-content-center align-items-center ">
                 <a
                   target="_Blank"
                   className="link text-decoration-none m-3 text-dark"
@@ -177,15 +177,15 @@ const Newprojects = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="m-3">
-            <div className="card" style={{ width: "18rem;" }}>
-              <img src={img5} className="card-img-top img-fluid" alt="..." />
+          <SwiperSlide className="">
+            <div className="swipercard">
+              <img src={img5} className=" img-fluid" alt="..." />
               <div className="card-body">
                 <button className="react-button">Html</button>
                 <button className="reactrouter-button">Css</button>
                 <button className="bootstrap-button">Netlify</button>
               </div>
-              <div className="d-flex justify-content-center align-items-center my-2">
+              <div className="d-flex justify-content-center align-items-center ">
                 <a
                   className="link text-decoration-none m-3 text-dark"
                   href="https://amazing-neumann-51d84f.netlify.app/"
@@ -195,15 +195,15 @@ const Newprojects = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="m-3">
-            <div className="card" style={{ width: "28rem;" }}>
-              <img src={img6} className="card-img-top img-fluid" alt="..." />
-              <div className="card-body">
+          <SwiperSlide className="">
+            <div className="swipercard">
+              <img src={img6} className=" img-fluid" alt="..." />
+              <div style={{"margin-bottom": "-19px"}} className="card-body">
                 <button className="react-button">HTML</button>
                 <button className="reactrouter-button">CSS</button>
                 <button className="bootstrap-button">Javascript</button>
               </div>
-              <div className="d-flex justify-content-center align-items-center my-2">
+              <div className="d-flex justify-content-center align-items-center ">
                 <a
                   target="_Blank"
                   className="link text-decoration-none m-3 text-dark"
